@@ -1,0 +1,116 @@
+/* MEDIA QUERIES */
+
+
+
+@media(max-width:705px){
+    .s_Container {
+        padding: 0px 79px 0px 79px;
+    }
+}
+
+
+@media(max-width:600px){
+    #big_Cloud {
+        height: 50px;
+        width: 160px;
+        mix-blend-mode: luminosity
+    }
+    .s_Container {
+        padding: 0px 19px 0px 19px;
+    }
+    #small_Cloud1 {
+        height: 72px;
+    }
+    #small_Cloud2 {
+        top: 60px;
+        right: 30px;
+    }
+    .c_image {
+        width: 6rem;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .C{
+        position: relative;
+        top: -11px;
+    }
+    .container_2{
+        flex-direction: column;
+    }
+    .C_text {
+        margin: 0px 0px 0px 95px;
+        z-index: 1; 
+        position: relative;
+        bottom: 2rem;
+       
+} 
+}
+
+
+
+
+
+@media (max-width:375px){
+  .c_image{
+width: 100px;
+  }
+  .s_Container {
+    padding: 0px 11px 0px 11px;
+}
+
+  .container_2{
+        flex-direction: column; 
+  }
+  .C_text{
+margin: 12px 3px;
+padding: 0;
+width: auto;
+  }
+
+  .C{
+    text-align: center;
+  }
+
+  #big_Cloud {
+    height: 40px;
+    width: 123px;
+    opacity: 41%;
+    mix-blend-mode: luminosity
+}
+
+}
+@media(max-width:286px){
+    .C_text {
+        margin: 0px 0px;
+        padding: 0px;
+        padding: 0;
+        width: auto;}
+        .container_2 {
+            padding: 0px 0px;
+            margin: 0px 0px;
+          
+
+
+}
+.s_Container {
+    padding: 0px 7px 0px 7px;
+}
+#DD {
+ font-size: 17px;
+}
+.my_Skills {
+    font-size: 25px;
+}
+.c_image {
+    width: 90px;
+    position: relative;
+    top: 37px;
+}
+.C_text {
+    position: relative;
+    top: 21px;
+}
+}
+ 
+
+
